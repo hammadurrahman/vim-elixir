@@ -86,7 +86,7 @@ endif
 if exists("loaded_matchit")
   let b:match_words = s:match_words
 endif
-
+  let g:eelixir_default_subtype = "html"
 if !exists('b:surround_45')
   " When using surround `-` (ASCII 45) would provide `<% selection %>`
   let b:surround_45 = "<% \r %>"
